@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaGoogle } from 'react-icons/fa';
 
 import { Container, Card, Background, Content, SignInSocial, ButtonFace, ButtonGoogle, Button, Input} from './styles';
 
-import dog from '../../assets/teste.png';
+import dog from '../../assets/dog-right.png';
 
 export function SignIn() {
     return (
@@ -22,7 +23,7 @@ export function SignIn() {
                         <ButtonGoogle><FaGoogle />Google</ButtonGoogle>
                     </SignInSocial>
 
-                    <p>Ainda não é cadastrado? <a>Cadastre-se</a></p>
+                    <p>Ainda não é cadastrado? <Link to="/SignUp">Cadastre-se</Link></p>
                 </Content> 
             </Card>
         </Container>
