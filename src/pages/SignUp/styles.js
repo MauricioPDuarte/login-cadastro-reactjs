@@ -3,10 +3,10 @@ import { shade } from "polished";
 
 import bg from '../../assets/bg2.png';
 
-const appearFromLeft = keyframes`
+const appearFromRight = keyframes`
   from {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
@@ -19,8 +19,7 @@ export const Container = styled.div`
     display: flex;
     background: url(${bg});
     position: relative;
-
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     
@@ -33,6 +32,7 @@ export const Card = styled.div`
     width: 900px;
     height: 470px;
     display: flex;
+    flex-direction: row-reverse;
 
     @media(max-width: 900px) {
         width: 350px;
@@ -45,13 +45,13 @@ export const Background = styled.div`
     width: 468px;
     height: 100%;
     background: #EFAC36;
-    border-radius: 10px 0 0 10px;
+    border-radius: 0 10px 10px 0;
     position: relative;
 
     img {
         position: absolute;
         bottom: 0;
-        right: 20px;
+        left: 20px;
     }
 
     @media(max-width: 900px) {
@@ -65,7 +65,7 @@ export const Content = styled.div`
     justify-content: center;
     width: 432px;
     padding: 20px 60px;
-    animation: ${appearFromLeft} 0.7s;
+    animation: ${appearFromRight} 0.7s;
 
     h1 {
         text-align: left;
@@ -163,58 +163,5 @@ export const Button = styled.button`
    
     &:hover {
         background: ${shade(0.2, "#EFAC36")};
-    }
-`;
-
-export const SignInSocial = styled.div`
-    display: flex;
-`;
-
-export const ButtonFace = styled.button`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #566495;
-    color: #fff;
-    font-size: 14px;
-    height: 50px;
-    width: 100%;
-    margin-right: 20px;
-    border: 0;
-    border-radius: 10px;
-    font-weight: 600;
-    transition: background 0.2s;
-
-    svg {
-        margin-right: 5px;
-    }
-
-    &:hover {
-        background: ${shade(0.2, "#566495")};
-    }
-`;
-
-export const ButtonGoogle = styled.button`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #4385F5;
-    color: #fff;
-    font-size: 14px;
-    height: 50px;
-    width: 100%;
-    border: 0;
-    font-weight: 600;
-    border-radius: 10px;
-    transition: background 0.2s;
-
-    svg {
-        margin-right: 5px;
-    }
-
-    &:hover {
-        background: ${shade(0.2, "#4385F5")};
     }
 `;
