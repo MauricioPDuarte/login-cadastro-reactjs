@@ -16,10 +16,10 @@
 ## :page_with_curl: Sobre
 Esse repositório contém uma aplicação Frond-End utilizando o Framework ReactJS.
 
+Dentro da aplicação o usuário vai conseguir navegar entre as telas de login, cadastro e recuperação de senha.
+
 Esse projeto foi realizado com o objetivo de concretizar os estudos do Framework ReactJS na parte de rotas,
 componentes, configurações de projeto e outros.
-
-Dentro da aplicação o usuário vai conseguir navegar entre as telas de login, cadastro e recuperação de senha.
 
 <b>Observação:</b> Não é utilizado nenhuma API para realizar a autenticação, é apenas um projeto para estudos.
 
