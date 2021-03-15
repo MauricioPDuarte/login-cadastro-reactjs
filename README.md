@@ -21,7 +21,7 @@ componentes, configurações de projeto e outros.
 
 Dentro da aplicação o usuário vai conseguir navegar entre as telas de login, cadastro e recuperação de senha.
 
-Observação: Não é utilizado nenhuma API para realizar a autenticação, é apenas um projeto para estudos.
+####Observação: Não é utilizado nenhuma API para realizar a autenticação, é apenas um projeto para estudos.
 
 ## :books: Requisitos
 - Ter [**Git**](https://git-scm.com/) para clonar o projeto.
