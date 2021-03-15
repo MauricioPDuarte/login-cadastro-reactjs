@@ -4,6 +4,7 @@
 Esse projeto foi realizado com o objetivo de concretizar os estudos do Framework ReactJS na parte de rotas, componentes, configurações de projeto e outros.
 
 ## :camera: Exemplo:
+![alt text](https://github.com/MauricioPDuarte/login-cadastro-reactjs/blob/master/web-pc.png?raw=true)
 
 
 
