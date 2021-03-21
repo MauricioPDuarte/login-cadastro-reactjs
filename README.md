@@ -11,7 +11,7 @@
   <a href="#computer-iniciando-front-end">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-![alt text](https://github.com/MauricioPDuarte/login-cadastro-reactjs/blob/master/mobile-web.png?raw=true)
+![alt text](https://github.com/MauricioPDuarte/login-cadastro-reactjs/blob/master/devices.png?raw=true)
 
 ## :page_with_curl: Sobre
 Esse repositório contém uma aplicação Frond-End utilizando o Framework ReactJS.
